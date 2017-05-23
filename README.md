@@ -51,7 +51,7 @@ To install the TktrGen Docker image, use the Dockerfile.
 
 The second step will take some time to complete as it has to build out a base Ubuntu image and install all of the additional dependencies.
 
-### Using the Docker Image
+## Using the Docker Image
 The Docker image will, by default, run an interactive version of TktrGen that takes a few items of input to configure the tool and then generates all of the required tickets. The commands below link the output directory of the Docker image to a local folder in your home area. This folder is where you should place the source CSV file and where all of the generated tickets will be placed.
 
 1. Create a folder in your home area to use as a target for ticket generation:
